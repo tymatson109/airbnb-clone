@@ -1,0 +1,49 @@
+.hostcard__card {
+  width: auto;
+  height: 480px;
+  border-radius: 15px;
+  object-fit: contain;
+  background-image: url("https://a0.muscache.com/im/pictures/48893cdc-221e-4eaf-b624-8956600550db.jpg?im_w=2560");
+  background-size: 1280px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.hostcard__cardText {
+  margin-left: 80px;
+  margin-right: 40px;
+  width: 360px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: left;
+}
+
+.hostcard__cardText > h1 {
+  line-height: 52px;
+}
+
+.hostcard__cardText > p {
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 8px;
+}
+
+.hostcard__cardText > button {
+  width: 132px;
+  padding: 14px 24px;
+  line-height: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+  cursor: pointer;
+}
